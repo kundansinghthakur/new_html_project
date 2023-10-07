@@ -1,0 +1,52 @@
+
+
+#h2{
+    background-color: aquamarine;
+    font-weight: 700;
+    
+    /* border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+     */
+     border:solid black 2px;   /*Short hand notation 3 line border ka code ek line mai */
+
+    height: 50px;
+    width: 400px;
+
+
+}
+
+span{
+    background-color: aquamarine;
+    border: black 5px solid;
+    height: 300px;               /* I have gievm height 100px but it won't change as it is a inline element*/
+    padding: 20px;               /* But Padding and margin will work*/
+    margin-left: 500px;
+}
+
+p.firstpara{
+    background-color: azure;
+    
+    border:black 2px solid;
+    border-radius: 5px;                   
+    width: 500px;                     /*Box ki width kamm krne k liye height bhi change krr skte hai*/
+
+}
+
+p.secpara{
+    background-color: rgba(191, 244, 31, 0.999);
+    
+    border: solid 4px rgb(54, 53, 51);    /*Border bottom is used for only bottom border */
+    padding: 30px;                            /*we have used padding here */
+    margin: 50px;                            /*we have used Margin here*/
+}
+
+
+p.thiredpara{
+    background-color: rgb(156, 156, 174);
+    font-weight: 800;
+    font-stretch: wider;
+    
+    
+}
+
